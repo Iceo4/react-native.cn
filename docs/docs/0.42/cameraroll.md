@@ -3,7 +3,7 @@
 **译注**：本模块只提供了基本的访问图片的功能，并没有提供相册界面。对于多数开发者来说，可能[react-native-image-picker](https://github.com/marcshilling/react-native-image-picker)的功能更为完整易用。
 
 ### iOS 10的权限要求
-从iOS10开始，访问相册需要用户授权。你需要在`Info.plist`中添加一条名为`NSCameraUsageDescription`的键，然后在其值中填写向用户请求权限的具体描述。编辑完成后这个键在Xcode中实际会显示为`Privacy - Camera Usage Description`。
+从iOS10开始，访问相册需要用户授权。你需要在`Info.plist`中添加一条名为`NSCameraUsageDescription`(相机),`NSPhotoLibraryUsageDescription`（相册）的键，然后在其值中填写向用户请求权限的具体描述。编辑完成后这个键在Xcode中实际会显示为`Privacy - Camera Usage Description`。
 
 ### 截图
 ![cameraroll](img/api/cameraroll.png)
